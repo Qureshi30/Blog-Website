@@ -1,0 +1,100 @@
+.singlePage {
+    padding: 50px 0;
+    background: #fff;
+  }
+  
+  .singlePage .right {
+    margin-top: 30px;
+  }
+  
+  .singlePage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .singlePage h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .singlePage p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 2;
+    text-transform: capitalize;
+  }
+  
+  .singlePage .buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .singlePage .button {
+    margin-left: 20px;
+    border: none;
+  }
+  
+  .singlePage .button:nth-child(1) {
+    background: #10ac84;
+  }
+  
+  .singlePage .button:nth-child(2) {
+    background: #ee5253;
+  }
+  
+  /* Modal Styles */
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .modal-buttons button {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-buttons button1 {
+    padding: 10px 20px;
+    background-color: #ee5253;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-buttons button:hover {
+    background-color: #bdbdbd;
+  }
+  .left{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+  
